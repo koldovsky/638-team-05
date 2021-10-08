@@ -48,3 +48,15 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+.blueviolet-background {
+    background-color: blueviolet;
+    
+ }
+.yellowline {
+    border: none;
+    background-color: orange;
+    color: orange;
+    height: 5px;
+    width: 100px;
+    margin-left: 10px;
+}
