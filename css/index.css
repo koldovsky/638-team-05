@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+:root {
+    font-family: 'Exo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+} 
+.main-header {
+    background-image: url(../img/backgr.png);
+    padding-bottom: 26px;
+}
+
+.fox {
+    margin-left: 50px;
+}
+
+.pages {
+    color: antiquewhite;
+    text-align: center;
+}
+
+h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.svg-icons {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.main-words {
+    color: antiquewhite;
+    text-align: center;
+}
+.slogan{
+    font-size: 3rem;
+    margin: auto;
+    padding: auto;
+}
+.baseline {
+    border: none; 
+    background-color: orange; 
+    color: orange; 
+    height: 7px; 
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}

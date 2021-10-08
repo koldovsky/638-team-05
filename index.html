@@ -6,33 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPTV Provider Website Template Demo</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <div class="main header" style="background-color: blueviolet;">
+        <div class="main-header">
             <div class="head">
                 <div class="fox">
                     <img src="img/logo.webp" alt="fox">
                 </div>
                 <div class="pages">
-                    <ul>
-                        <li><a href="#channels">
-                                <h3>Channels</h3>
-                            </a></li>
-                        <li><a href="#about-us">
-                                <h3>About us</h3>
-                            </a></li>
-                        <li><a href="#pricing">
-                                <h3>Pricing</h3>
-                            </a></li>
-                        <li><a href="#mews">
-                                <h3>News</h3>
-                            </a></li>
-                        <li><a href="#contact-us">
-                                <h3>Contact us</h3>
-                            </a></li>
-                    </ul>
+
+                    <a href="#channels">
+                        <h3>Channels</h3>
+                    </a>
+                    <a href="#about-us">
+                        <h3>About us</h3>
+                    </a>
+                    <a href="#pricing">
+                        <h3>Pricing</h3>
+                    </a>
+                    <a href="#news">
+                        <h3>News</h3>
+                    </a>
+                    <a href="#contact-us">
+                        <h3>Contact us</h3>
+                    </a>
+
                 </div>
                 <div class="svg-icons">
                     <a href="https://uk-ua.facebook.com/"><img src="img/facebook.png" alt="facebook"
@@ -43,16 +44,19 @@
                             style="height: 40px;"></a>
                 </div>
             </div>
-            <h4>connect to the vibrant</h4>
-            <h1>IPTV</h1>
-            <h1>World</h1>
-            <p>———</p>
             <a href="#lear-more">
                 <h3>Lear More</h3>
             </a>
             <a href="#lear-more">
                 <h3>Currently airing📷</h3>
             </a>
+            <div class="main-words">
+            <h4>connect to the vibrant</h4>
+            <h2 class="slogan">IPTV</h2>
+            <h2 class="slogan">World</h2>
+            <div class="baseline"></div>
+            </div>
+            
         </div>
 
     </header>
@@ -90,42 +94,41 @@
         <div class="line"></div>
         <p>Watch the new episodes of your favorite TV series with the rest of the world!</p>
         <div class="series">
-            <img src="img/weather-girl.webp">
+            <img src="img/weather-girl.webp" alt="weater-girl">
         </div>
-        <tr>
-            <td id="col1">
-                <div class="genre">Romantic, TV Comedies, Drama</div>
-                <div class="title">
-                    <h3>Weather Girl</h3>
-                </div>
-                <div class="summary">Jessica has always dreamed of working on a TV channel! Since childhood, she<br>
-                    imagined herself as a co-host of the morning show. And yesterday she was really<br> hired, not for
-                    the morning show but for the weather forecast, alas.</div>
-            </td>
-            <td id="col2">
-                <div class="air-date">November 15, 2017</div>
-                <div>
-                    <ul>
-                        <li class="streaming-servise">Hulu</li>
-                        <li class="">TV Series</li>
-                        <li class="seasons">3 season</li>
-                        <li class="air-year">2020</li>
-                        <li class="age-limit">16+</li>
-                    </ul>
-                </div>
-            </td>
-            <td id="col3">
-                <div>Starring</div>
-                <div>
-                    <ul>
-                        <li class="actors">Susan Ericson</li>
-                        <li class="actors">Max Milter</li>
-                        <li class="actors">Lisa Wooden</li>
-                        <li class="actors">Timothy o`Cork</li>
-                        <li class="actors">Erica Mitchell</li>
-                    </ul>
-                </div>
-            </td>
+        <td id="col1">
+            <div class="genre">Romantic, TV Comedies, Drama</div>
+            <div class="title">
+                <h3>Weather Girl</h3>
+            </div>
+            <div class="summary">Jessica has always dreamed of working on a TV channel! Since childhood, she<br>
+                imagined herself as a co-host of the morning show. And yesterday she was really<br> hired, not for
+                the morning show but for the weather forecast, alas.</div>
+        </td>
+        <td id="col2">
+            <div class="air-date">November 15, 2017</div>
+            <div>
+                <ul>
+                    <li class="streaming-servise">Hulu</li>
+                    <li class="">TV Series</li>
+                    <li class="seasons">3 season</li>
+                    <li class="air-year">2020</li>
+                    <li class="age-limit">16+</li>
+                </ul>
+            </div>
+        </td>
+        <td id="col3">
+            <div>Starring</div>
+            <div>
+                <ul>
+                    <li class="actors">Susan Ericson</li>
+                    <li class="actors">Max Milter</li>
+                    <li class="actors">Lisa Wooden</li>
+                    <li class="actors">Timothy o`Cork</li>
+                    <li class="actors">Erica Mitchell</li>
+                </ul>
+            </div>
+        </td>
         </tr>
 
         <!--блок Pricing-->
@@ -152,7 +155,7 @@
                 <p>-24/7 support-</p>
                 <p>-Free connection-</p>
             </div>
-                <div class="button">Select plan<a href="Contact us"></a></div>
+            <div class="button">Select plan<a href="Contact us"></a></div>
         </div>
         <div class="plan-pro">
             <h2>Pro</h2>
@@ -209,75 +212,75 @@
             </div>
         </div>
     </main>
-        <footer>
-            <div class="partners and channels" style="background-color: blueviolet;">
-                <h1>Our Partners and Channels</h1>
-                <div class="divider-component divider-component_1rG"
-                    style="height:3px;width:5%;background-color:#fdac08"></div>
-                <p>We partner with the most popular channels that provide quality content.</p>
-                <div class="netflix">
-                    <img src="img/netflix.svg" alt="netflix icon" height="250px">
-                    <h3>Netflix</h3>
-                    <div>The most famous streaming service in the United States offering a wide variety of movies and TV
-                        series.</div>
-                </div>
-                <div class="HBO">
-                    <img src="img/HBO.webp" alt="hbo icon" height="250px">
-                    <h3>HBO</h3>
-                    <div>A network of channels with the highest grossing TV series in the world,news,top sports
-                        events,and more.</div>
-                </div>
-                <div>
-                    <img src="img/discovery.webp" alt="discovery icon" height="250px">
-                    <h3>Discovery</h3>
-                    <p>Educational channel provider.Here you can watch the most interesting facts about animals and
-                        history.</p>
-                </div>
-                <div>
-                    <img src="img/USA-network.webp" alt="usa-network icon" height="250px">
-                    <h3>USA Network</h3>
-                    <p>Only verified and timely news from all the American States and other countries.Be aware of what's
-                        going on!</p>
-                </div>
-                <div class="Registration">
-
-                </div>
+    <footer>
+        <div class="partners and channels" style="background-color: blueviolet;">
+            <h1>Our Partners and Channels</h1>
+            <div class="divider-component divider-component_1rG" style="height:3px;width:5%;background-color:#fdac08">
             </div>
-            <div class="Contacts">
-                <h1>Want to Connect?Contact us.</h1>
-                <p>Support department</p>
-                <a href="mailto:iptvfox-support@email.com" data-action="email" class="ui-link"></a>
-                <p>Contact phone</p>
-                <a href="tel:+12345678900" data-action="phone" class="ui-link"></a>
+            <p>We partner with the most popular channels that provide quality content.</p>
+            <div class="netflix">
+                <img src="img/netflix.svg" alt="netflix icon" height="250px">
+                <h3>Netflix</h3>
+                <div>The most famous streaming service in the United States offering a wide variety of movies and TV
+                    series.</div>
+            </div>
+            <div class="HBO">
+                <img src="img/HBO.webp" alt="hbo icon" height="250px">
+                <h3>HBO</h3>
+                <div>A network of channels with the highest grossing TV series in the world,news,top sports
+                    events,and more.</div>
             </div>
             <div>
-                <img src="img/logo.webp" alt="logo">
+                <img src="img/discovery.webp" alt="discovery icon" height="250px">
+                <h3>Discovery</h3>
+                <p>Educational channel provider.Here you can watch the most interesting facts about animals and
+                    history.</p>
             </div>
-            <div class="pages">
-                <ul>
-                    <li><a href="#Channels">
-                            <h3>Channels</h3>
-                        </a></li>
-                    <li><a href="#About us">
-                            <h3>About us</h3>
-                        </a></li>
-                    <li><a href="#Pricing">
-                            <h3>Pricing</h3>
-                        </a></li>
-                    <li><a href="#News">
-                            <h3>News</h3>
-                        </a></li>
-                    <li><a href="#Contacts">
-                            <h3>Contacts</h3>
-                        </a></li>
-                </ul>
+            <div>
+                <img src="img/USA-network.webp" alt="usa-network icon" height="250px">
+                <h3>USA Network</h3>
+                <p>Only verified and timely news from all the American States and other countries.Be aware of what's
+                    going on!</p>
             </div>
+            <div class="Registration">
+
+            </div>
+        </div>
+        <div class="Contacts">
+            <h1>Want to Connect?Contact us.</h1>
+            <p>Support department</p>
+            <a href="mailto:iptvfox-support@email.com" data-action="email" class="ui-link"></a>
+            <p>Contact phone</p>
+            <a href="tel:+12345678900" data-action="phone" class="ui-link"></a>
+        </div>
+        <div>
+            <img src="img/logo.webp" alt="logo">
+        </div>
+        <div class="pages">
+            <ul>
+                <li><a href="#Channels">
+                        <h3>Channels</h3>
+                    </a></li>
+                <li><a href="#About us">
+                        <h3>About us</h3>
+                    </a></li>
+                <li><a href="#Pricing">
+                        <h3>Pricing</h3>
+                    </a></li>
+                <li><a href="#News">
+                        <h3>News</h3>
+                    </a></li>
+                <li><a href="#Contacts">
+                        <h3>Contacts</h3>
+                    </a></li>
+            </ul>
+        </div>
 
 
 
 
 
-        </footer>
+    </footer>
 
 </body>
 
