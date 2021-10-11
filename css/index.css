@@ -167,7 +167,8 @@ h3 {
     height: 100px;
 }
 .whats-new-block {
-    background-color: #7237df;
+    background-color: #1d2e7b;
+    
 }
 .whats-new-paragraph {
     font-size: 58px;
@@ -175,6 +176,10 @@ h3 {
     font-weight: 700;
     color: #fff;
     text-align: center;
+}
+.line {
+  text-align: center;
+  color: rgba(255,255,255,0.7);
 }
 .block-title {
     font-family: Exo;
@@ -194,4 +199,14 @@ h3 {
 .channels {
     padding: 0;
     margin: 0;
+    background-color: #7237df;
+}
+.sports {
+  background-color: #7237df;
+}
+.coming-soon {
+  background-color: #7237df;
+}
+.tv-series {
+  background-color: #7237df;
 }
