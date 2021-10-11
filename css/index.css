@@ -176,6 +176,8 @@ h3 {
 
 .whats-new-block {
     background-color: #1d2e7b;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
     
 }
 .whats-new-paragraph {
