@@ -63,3 +63,32 @@ h3 {
 .whats-new-block img{
     height: 100px;
 }
+.whats-new-block {
+    background-color: #7237df;
+}
+.whats-new-paragraph {
+    font-size: 58px;
+    line-height: 1.18;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.block-title {
+    font-family: Exo;
+    color: #fdac08;
+}
+.block-text {
+    font-family: Rajdhani;
+}
+.block-dates {
+    font-family: Exo;
+    color: rgba(255,255,255,0.7);
+}
+.button {
+    font-family: Exo;
+    color: #fdac08;
+}
+.channels {
+    padding: 0;
+    margin: 0;
+}
