@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 
+html {
+  background-color:  #231f63;
+}
 * {
     margin: 0;
     padding: 0;
@@ -176,10 +179,17 @@ h3 {
 
 
 .whats-new-block {
-    background-color: #1d2e7b;
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    
+    grid-row-gap: 10px;
+    grid-column-gap: 10px; 
+    max-width: 25%s;
+    margin-bottom: 50px;
+}
+.whats-new-block img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
 .whats-new-paragraph {
     font-size: 58px;
@@ -189,7 +199,7 @@ h3 {
     text-align: center;
 }
 .line {
-  text-align: center;
+  display: flex;
   color: rgba(255,255,255,0.7);
 }
 .block-title {
@@ -208,8 +218,6 @@ h3 {
     color: #fdac08;
 }
 .channels {
-    padding: 0;
-    margin: 0;
     background-color: #7237df;
 }
 .sports {
