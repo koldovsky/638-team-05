@@ -166,6 +166,16 @@ h3 {
 .whats-new-block img{
     height: 100px;
 }
+.main-footer {
+    background-color: #231f63;
+    color: #fff;
+}
+.ui-link {
+    color: #fdac08;
+    font-weight: bold;}
+.logo-foot {
+    height: auto;}
+
 .whats-new-block {
     background-color: #1d2e7b;
     
