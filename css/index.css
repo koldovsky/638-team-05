@@ -63,3 +63,14 @@ h3 {
 .whats-new-block img{
     height: 100px;
 }
+.main-footer {
+    background-color: #231f63;
+}
+.ui-link {
+    color: #fdac08;
+    font-weight: bold;
+}
+.logo-foot {
+    width: 151;
+    height: auto;
+}
