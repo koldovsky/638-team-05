@@ -229,3 +229,58 @@ h3 {
 .tv-series {
   background-color: #7237df;
 }
+.pricing-block-container {
+ text-align: center;
+ position: relative;
+ flex-direction: column-reverse;
+ background-image: url(img/plan-backgrond.png);
+ 
+}
+.plan-background { 
+  height: 435px;
+  width: 100%;
+  object-fit: none;
+  align-self: auto;
+}
+.line-devider {
+height: 3px;
+width: 5%; 
+background-color: #fdac08;
+}
+.pricing-header{
+  color:#fff;
+  text-align: center;
+  vertical-align: baseline;
+  font-family: sans-serif;
+  font-size: 38px;
+  margin: auto;
+  padding: auto;
+
+}
+.plan-content {
+  color: #fff;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: 14px;
+  position:relative;
+  background-image: url(img/plan-background.webp);
+}
+.price {
+  color: #fdac08;
+  font-size: 38px;
+}
+.text-content {
+  font-size: 19px;
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+}
+.plan-header {
+  font-size: 22px;
+  color: #fff;
+  font-family: sans-serif;
+}
+.per-month {
+  color: #fdac08;
+  font-family: sans-serif;
+  font-size: 14px;
+}
