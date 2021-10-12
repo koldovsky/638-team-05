@@ -167,16 +167,22 @@ h3 {
 .whats-new-block img{
     height: 100px;
 }
+<!--footer-->
 .main-footer {
-    background-color: #231f63;
+    background-color: #231f63!;
     color: #fff;
 }
 .ui-link {
     color: #fdac08;
     font-weight: bold;}
 .logo-foot {
-    height: auto;}
+    height: auto;
+    margin:auto
+    ;}
+.headlines center {
+  text-align:center
 
+}
 
 .whats-new-block {
     display: grid;
