@@ -196,11 +196,8 @@ image-wrap{
 }
 
 .whats-new-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
     grid-row-gap: 10px;
     grid-column-gap: 10px; 
-    max-width: 25%s;
     margin-bottom: 50px;
     background-color: #272360;
 }
@@ -252,6 +249,7 @@ image-wrap{
 .tv-series {
   background-color: #7237df;
 }
+
 .pricing-block-container {
  max-width: 345px;
   text-align: center;
