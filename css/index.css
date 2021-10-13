@@ -190,9 +190,11 @@ image-wrap{
     height: auto;
     margin:auto
     ;}
-.headlines center {
-  text-align:center
-
+.headlines-center {
+  text-align:cente
+}
+.button-request{
+color: #fdac08;
 }
 
 .whats-new-block {

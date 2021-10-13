@@ -166,45 +166,48 @@
         <div class="line"></div>
         <p>Watch the new episodes of your favorite TV series with the rest of the world!</p>
         <div class="series">
-            <img src="img/weather-girl.webp" alt="weathergirl">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/music-band.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Music Band</h5>
+                      <p>Five friends turned down by a major music producer<br> decided to open their own music studio. It seems to them<br> that it is very easy to run a business and remain friends.<br> But what if all five are creative people with their own inner<br> demons?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/back-to-school.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Back to school</h5>
+                      <p>It's time for Max and Ellie to head back to school after a<br> long summer break. Old and new friends, new difficulties,<br> and joys await them. Will they be able to keep their<br> friendship through the school years and what awaits them<br> in high school?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/weather-girl.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Weather girl</h5>
+                      <p>Jessica has always dreamed of working on a TV channel! Since childhood, she<br>
+                        imagined herself as a co-host of the morning show. And yesterday she was really<br> hired, not for
+                        the morning show but for the weather forecast, alas.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>            
         </div>
-        <div class="row">
-            <div class="column-1">
-                <div class="genre">Romantic, TV Comedies, Drama</div>
-                <div class="title">
-                    <h3>Weather Girl</h3>
-                </div>
-                <div class="summary">Jessica has always dreamed of working on a TV channel! Since childhood, she<br>
-                    imagined herself as a co-host of the morning show. And yesterday she was really<br> hired, not for
-                    the morning show but for the weather forecast, alas.</div>
-            </div>
-            <div class="column-2">
-                <div class="air-date">
-                    <p>November 15, 2017</p>
-                </div>
-                <div>
-                    <ul>
-                        <li class="streaming-servise">Hulu</li>
-                        <li class="">TV Series</li>
-                        <li class="seasons">3 season</li>
-                        <li class="air-year">2020</li>
-                        <li class="age-limit">16+</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="column-3">
-                <div>Starring</div>
-                <div>
-                    <ul>
-                        <li class="actors">Susan Ericson</li>
-                        <li class="actors">Max Milter</li>
-                        <li class="actors">Lisa Wooden</li>
-                        <li class="actors">Timothy o`Cork</li>
-                        <li class="actors">Erica Mitchell</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
         <!--блок Pricing-->
         <div class="pricing-header">Pricing</div>
         <div class="text-content">
@@ -341,10 +344,11 @@
     </main>
     <footer class="main-footer">
         <div class="partners and channels">
-            <h1 class="headlines center">Our Partners and Channels</h1>
+            <h1 class="headlines-center">Our Partners and Channels</h1>
             <div class="divider-component divider-component_1rG" style="height:3px;width:5%;background-color:#fdac08">
             </div>
             <p>We partner with the most popular channels that provide quality content.</p>
+
             <div class="netflix">
                 <img src="img/netflix.svg" alt="netflix icon" style="height: 250px">
                 <h3>Netflix</h3>
@@ -352,25 +356,25 @@
                     series.</div>
             </div>
             <div class="HBO">
-                <img src="img/hbo.webp" alt="hbo icon">
+                <img src="img/hbo.webp" alt="hbo icon" style="height: 250px">
                 <h3>HBO</h3>
                 <div>A network of channels with the highest grossing TV series in the world,news,top sports
                     events,and more.</div>
             </div>
             <div>
-                <img src="img/discovery.webp" alt="discovery icon">
+                <img src="img/discovery.webp" alt="discovery icon" style="height: 250px">
                 <h3>Discovery</h3>
                 <p>Educational channel provider.Here you can watch the most interesting facts about animals and
                     history.</p>
             </div>
             <div>
-                <img src="img/usa-network.webp" alt="usa-network icon">
+                <img src="img/usa-network.webp" alt="usa-network icon" style="height: 250px">
                 <h3>USA Network</h3>
                 <p>Only verified and timely news from all the American States and other countries.Be aware of what's
                     going on!</p>
             </div>
             <div>
-                <img src="img/nickelodeon.webp" alt="nickelodeon icon">
+                <img src="img/nickelodeon.webp" alt="nickelodeon icon" style="height: 250px">
                 <h3>Nickelodeon</h3>
                 <p>The most popular children's channel worldwide. Enjoy cartoons, educational programs, and teenage
                     shows.</p>
@@ -379,7 +383,7 @@
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Phone number">
                 <input type="text" placeholder="Email">
-                <button type="submit">Send a request</button>
+                <button class="button-request" type="submit">Send a request</button>
             </div>
         </div>
         <div class="Contacts">
