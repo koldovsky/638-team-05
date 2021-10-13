@@ -188,10 +188,18 @@ image-wrap{
     font-weight: bold;}
 .logo-foot {
     height: auto;
-    margin:auto
-    ;}
+    margin:auto;
+    }
 .headlines-center {
   text-align:center
+}
+.yelow-line {
+  height:3px;
+  width:5%;
+  background-color:#fdac08;
+  margin-left:auto;
+  margin-right: auto;
+
 }
 .contacts {
   text-align:center
