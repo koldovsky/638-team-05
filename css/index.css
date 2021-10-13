@@ -191,7 +191,10 @@ image-wrap{
     margin:auto
     ;}
 .headlines-center {
-  text-align:cente
+  text-align:center
+}
+.contacts {
+  text-align:center
 }
 .button-request{
 color: #fdac08;
