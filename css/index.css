@@ -202,6 +202,12 @@ image-wrap{
     grid-column-gap: 10px; 
     max-width: 25%s;
     margin-bottom: 50px;
+    background-color: #272360;
+}
+@media (max-width: 750px) {
+  .whats-new-block {
+    display: list-item;
+  }
 }
 .whats-new-block img {
   height: 250px;
