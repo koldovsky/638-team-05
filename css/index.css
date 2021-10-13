@@ -123,7 +123,7 @@ a {
 }
 
 .last-words {
-  text-align: ;
+  margin-bottom: 260px;
 }
 
 .baseline {
@@ -131,15 +131,11 @@ a {
     background-color: orange; 
     height: 4px; 
     width: 70px;
-<<<<<<< HEAD
-    margin: 30px;
+    margin: 24px;
   }
   .wrapper img{
     width: 100%;
   }
-=======
-    margin: 24px;
->>>>>>> 8ba7dbe385ad6c309ecd90e5ea6b00feb7c76422
 
 .block-about{
   background-color: #231f63! ;
