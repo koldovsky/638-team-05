@@ -151,18 +151,48 @@ h3 {
     height: 4px; 
     width: 70px;
     margin: 30px;
+  }
+  .wrapper img{
+    width: 100%;
+  }
 
+.block-about{
+  background-color: #231f63! ;
+  color:white;
+  margin-left: 30px;
+  font-size: 1.5em;
+  line-height: 200%;
 }
-.blueviolet-background {
-    background-color: blueviolet;
-    
- }
 .yellowline {
     border: none;
     background-color: orange;
     height: 5px;
     width: 100px;
     margin-left: 10px;
+
+}
+.points{
+  color: rgba(255,255,255,0.7);
+  list-style-image:url(../img/\ checkmark\ icon\ icon.png);
+  margin-left: 15px;
+
+}
+.about-right {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: left;
+}
+.about-right{
+  text-align: left;
+}
+.text-wrap{
+  padding: 0 30px 0 0;
+  flex: 0 1 50%;
+}
+image-wrap{
+  flex: 0 50px 0;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .whats-new-block img{
     height: 100px;
