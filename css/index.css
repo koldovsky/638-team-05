@@ -320,3 +320,10 @@ background-color: #fdac08;
   font-family: sans-serif;
   font-size: 14px;
 }
+
+.clock {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 65px;
+}
