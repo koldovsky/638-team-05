@@ -263,43 +263,64 @@ color: #fdac08;
   background-color: #7237df;
 }
 
-.pricing-block-container {
+.plan {
+background-color: #231f63;
+position: center;
+}
+.pricing-block-container-1 {
  max-width: 345px;
-  text-align: center;
- position: relative;
- background-image: url(img/plan-background.png);
+ text-align: center;
+ background-image: url(../img/plan-background.png);
  object-fit: cover;
- height: 435px;
- width: 100%;
- background-color: blueviolet;
- margin-bottom:0px;
-margin-left:15px;
-margin-right:15px;
-margin-top:50px;
+ max-height: 435px;
+ padding: auto;
+ margin: auto;
+ display: inline-table;
+}
+.pricing-block-container-2 {
+  max-width: 345px;
+  text-align: center;
+  background-image: url(../img/plan-background.png);
+  object-fit: cover;
+  max-height: 435px;
+  padding: auto;
+  margin: auto;
+  display: inline-table;
+  
+ }
+ .pricing-block-container-3 {
+  max-width: 345px;
+  text-align: center;
+  background-image: url(../img/plan-background.png);
+  object-fit: cover;
+  max-height: 435px;
+  padding: auto;
+  margin: auto;
+  display: inline-table;
+  vertical-align: inherit;
+  
+
 }
 .line-devider {
 height: 3px;
 width: 5%; 
 background-color: #fdac08;
+position: relative;
 }
 .pricing-header{
   color:#fff;
   text-align: center;
-  vertical-align: baseline;
   font-family: sans-serif;
   font-size: 38px;
   margin: auto;
   padding: auto;
+ 
 }
 .plan-content {
   color: #fff;
-  vertical-align: baseline;
   font-family: inherit;
   font-size: 14px;
   position:relative;
-  background-image: url(img/plan-background.webp);
-  
-
 }
 .price {
   color: #fdac08;
