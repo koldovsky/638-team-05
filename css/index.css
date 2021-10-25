@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 
 html {
   background-color:  #231f63;
@@ -236,8 +237,10 @@ color: #fdac08;
   color: rgba(255,255,255,0.7);
 }
 .block-title {
-    font-family: Exo;
     color: #fdac08;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Exo', sans-serif;
 }
 .block-text {
     font-family: Rajdhani;
@@ -246,9 +249,15 @@ color: #fdac08;
     font-family: Exo;
     color: rgba(255,255,255,0.7);
 }
-.button {
-    font-family: Exo;
+.button a{
+    font-family: 'Exo', sans-serif;
     color: #fdac08;
+    font-weight: 700;
+}
+.button a:hover{
+  color: #fff;
+  transition: 0.7s;
+  text-decoration: underline;
 }
 .channels {
     background-color: #7237df;
