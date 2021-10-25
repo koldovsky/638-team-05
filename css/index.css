@@ -209,17 +209,27 @@ image-wrap{
 color: #fdac08;
 }
 
-.whats-new-block {
+/*.whats-new-block {
     grid-row-gap: 10px;
     grid-column-gap: 10px; 
     margin-bottom: 50px;
     background-color: #272360;
-}
+}*/
 @media (max-width: 750px) {
   .whats-new-block {
     display: list-item;
   }
 }
+.pos {
+  margin: 20px;
+  width: 550px;
+}
+.container {
+  margin-left: 160px;
+}
+/* .row-cols-2 {
+  margin: 20px;
+} */
 .whats-new-block img {
   height: 323px;
   width: 260px;
