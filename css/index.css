@@ -220,16 +220,11 @@ color: #fdac08;
     display: list-item;
   }
 }
-.pos {
-  margin: 20px;
-  width: 550px;
+.txt-pos {
+  text-align: left;
+  width: 220px;
 }
-.container {
-  margin-left: 160px;
-}
-/* .row-cols-2 {
-  margin: 20px;
-} */
+
 .whats-new-block img {
   height: 323px;
   width: 260px;
