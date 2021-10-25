@@ -232,7 +232,7 @@ color: #fdac08;
     text-align: center;
 }
 .line {
-  display: flex;
+  text-align: center;
   color: rgba(255,255,255,0.7);
 }
 .block-title {
