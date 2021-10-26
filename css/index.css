@@ -12,7 +12,7 @@ html {
   }  
 
 :root {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Exo', sans-serif!important;
 }
 
 a {
@@ -20,6 +20,7 @@ a {
 } 
 .main-header {
     background-image: url(../img/backgr.png);
+    background-repeat: no-repeat;
     padding-bottom: 26px;
 }
 
