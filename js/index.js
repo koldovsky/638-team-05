@@ -4,9 +4,9 @@ setInterval ( () => clockContainer.innerText = new Date().toLocaleTimeString(), 
 
 (function(){
 const slides = [
-    <><div class="pricing-block-container-1"></div>
-    <div class="pricing-block-container-2"></div>
-    <div class="pricing-block-container-3"></div></>
+    `<div class = pricing-block-container-1></div>`,
+    `<div class = pricing-block-container-2></div>`,
+    `<div class = pricing-block-container-3></div>`
 ];
 let currentSlide = 0;
 function showCurrentslide (){
@@ -18,7 +18,7 @@ function nextSlide (){
     if (currentSlide >= slides.length) currentSlide=0;
     showCurrentslide();
 }
-    setInterval (nextSlide 3000);
+    setInterval (nextSlide, 1000);
 
     showCurrentslide();
 
