@@ -1,10 +1,10 @@
 (function () {
     const slides = [
-        '<div><img src="img/netflix.svg" alt="netflix icon"></div>',
-        '<div><img src="img/hbo.webp" alt = "hbo icon"></div>',
-        '<div><img src="img/discovery.webp" alt="discovery icon"></div>',
-        '<div><img src="img/usa-network.webp" alt="usa-network icon"></div>',
-        '<div><img src="img/nickelodeon.webp" alt="nickelodeon icon"></div>', 
+        '<div ><img src="img/netflix.svg" alt="netflix icon" class="icon-channels"><h3>Netflix</h3></div>',
+        '<div ><img src="img/hbo.webp" alt = "hbo icon" class="icon-channels"></div>',
+        '<div ><img src="img/discovery.webp" alt="discovery icon" class="icon-channels"></div>',
+        '<div ><img src="img/usa-network.webp" alt="usa-network icon" class="icon-channels"></div>',
+        '<div ><img src="img/nickelodeon.webp" alt="nickelodeon icon" class="icon-channels"></div>', 
     ];
     let currentSlide = 0
 
