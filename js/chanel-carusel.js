@@ -1,9 +1,9 @@
 (function () {
     const slides = [
-        '<div><img src="img/netflix.svg" alt="netflix icon"></img></div>',
+        '<div><img src="img/netflix.svg" alt="netflix icon"></div>',
         '<div><img src="img/hbo.webp" alt = "hbo icon"></div>',
-        '<div><img src="img/discovery.webp" alt="discovery icon"></img></div>',
-        '<div><img src="img/usa-network.webp" alt="usa-network icon"></img></div>',
+        '<div><img src="img/discovery.webp" alt="discovery icon"></div>',
+        '<div><img src="img/usa-network.webp" alt="usa-network icon"></div>',
         '<div><img src="img/nickelodeon.webp" alt="nickelodeon icon"></div>', 
     ];
     let currentSlide = 0
