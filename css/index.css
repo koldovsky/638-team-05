@@ -211,13 +211,19 @@ image-wrap {
 .button-request {
   color: #fdac08;
 }
-.chanel-carousel {
+.chanel-carousel-foot {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 8fr 1fr;
 }
-.chanel-carousel .chanel-slide {
+.chanel-carousel-foot .chanel-slide {
   display: flex;
 }
+
+.chanel-carousel-foot .chanel-slide img{
+  display: block;
+  width: 100%;
+}
+
 .footer-section {
   padding-top: 30px;
   padding-bottom: 15px;
