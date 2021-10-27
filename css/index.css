@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap");
-=======
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
 
 html {
   background-color: #231f63;
@@ -18,25 +12,16 @@ html {
 }
 
 :root {
-<<<<<<< HEAD
-  font-family: "Exo", sans-serif;
-=======
     font-family: 'Exo', sans-serif!important;
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
 }
 
 a {
   text-decoration: none;
 }
 .main-header {
-<<<<<<< HEAD
-  background-image: url(../img/backgr.png);
-  padding-bottom: 26px;
-=======
     background-image: url(../img/backgr.png);
     background-repeat: no-repeat;
     padding-bottom: 26px;
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
 }
 
 .fox {
@@ -242,127 +227,94 @@ image-wrap {
   width: 24px;
   height: 24px;
 }
-<<<<<<< HEAD
 .whats-new-block {
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  margin-bottom: 50px;
-  background-color: #272360;
+  background-color: rgb(30,43,118);
 }
-=======
-/*.whats-new-block {
-    grid-row-gap: 10px;
-    grid-column-gap: 10px; 
-    margin-bottom: 50px;
-    background-color: #272360;
-}*/
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
+.whats-new-block-pos {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 30px;
+}
 @media (max-width: 750px) {
-  .whats-new-block {
-    display: list-item;
-  }
+.whats-new-block {
+  display: list-item;
+}
 }
 .txt-pos {
-  text-align: left;
-  width: 220px;
+text-align: left;
+width: 220px;
+}
+
+.yellow-stripe {
+  background-color: rgb(253,172,8);
+  width: 56px;
+  height: 3px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .whats-new-block img {
-  height: 323px;
-  width: 260px;
-  object-fit: cover;
-  margin: 25px;
+height: 323px;
+width: 260px;
+object-fit: cover;
+margin: 25px;
 }
 .whats-new-paragraph {
-  font-size: 58px;
-  line-height: 1.18;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
+font-size: 58px;
+line-height: 1.18;
+font-weight: 700;
+color: #fff;
+text-align: center;
 }
 .line {
-<<<<<<< HEAD
-  display: flex;
-  color: rgba(255, 255, 255, 0.7);
+text-align: center;
+color: rgba(255,255,255,0.7);
 }
 .block-title {
-  font-family: Exo;
   color: #fdac08;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Exo', sans-serif;
 }
 .block-text {
-  font-family: Rajdhani;
-=======
-  text-align: center;
-  color: rgba(255,255,255,0.7);
-}
-.block-title {
-    color: #fdac08;
-    font-weight: bold;
-    font-size: 13px;
-    font-family: 'Exo', sans-serif;
-}
-.block-text {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: 1.31;
-    color: white;
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.31;
+  color: white;
 }
 .block-dates {
-  font-family: Exo;
-  color: rgba(255, 255, 255, 0.7);
+font-family: Exo;
+color: rgba(255, 255, 255, 0.7);
 }
-<<<<<<< HEAD
-.button {
-  font-family: Exo;
-  color: #fdac08;
-=======
 .button a{
-    font-family: 'Exo', sans-serif;
-    color: #fdac08;
-    font-weight: 700;
+  font-family: 'Exo', sans-serif;
+  color: #fdac08;
+  font-weight: 700;
+  text-decoration: none;
 }
 .button a:hover{
-  color: #fff;
-  transition: 0.7s;
-  text-decoration: underline;
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
+color: #fff;
+transition: 0.7s;
+text-decoration: underline;
 }
 .channels {
-  background-color: #7237df;
+background-color: #7237df;
 }
 .sports {
-  background-color: #7237df;
+background-color: #7237df;
 }
 .coming-soon {
-  background-color: #7237df;
+background-color: #7237df;
 }
 .tv-series {
-  background-color: #7237df;
+background-color: #7237df;
 }
 
-<<<<<<< HEAD
-.pricing-block-container {
-  max-width: 345px;
-  text-align: center;
-  position: relative;
-  background-image: url(img/plan-background.png);
-  object-fit: cover;
-  height: 435px;
-  width: 100%;
-  background-color: blueviolet;
-  margin-bottom: 0px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 50px;
-}
-.line-devider {
-  height: 3px;
-  width: 5%;
-  background-color: #fdac08;
-=======
 .plan {
 background-color: #231f63;
 position: center;
@@ -406,7 +358,6 @@ height: 3px;
 width: 5%; 
 background-color: #fdac08;
 position: relative;
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
 }
 .pricing-header {
   color: #fff;
@@ -421,12 +372,7 @@ position: relative;
   color: #fff;
   font-family: inherit;
   font-size: 14px;
-<<<<<<< HEAD
-  position: relative;
-  background-image: url(img/plan-background.webp);
-=======
   position:relative;
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
 }
 .price {
   color: #fdac08;
@@ -447,8 +393,6 @@ position: relative;
   font-family: sans-serif;
   font-size: 14px;
 }
-<<<<<<< HEAD
-=======
 
 .clock {
   color: white;
@@ -456,4 +400,3 @@ position: relative;
   margin: auto;
   font-size: 65px;
 }
->>>>>>> 6c1b62c2f0a8c2e602e44e35aecf1799784e4257
