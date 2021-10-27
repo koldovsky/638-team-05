@@ -29,6 +29,14 @@ a {
   width: 50%;
 }
 
+.menu {
+  font: bold;
+}
+
+@media {
+  
+}
+
 .pages {
   color: antiquewhite;
   text-align: center;
