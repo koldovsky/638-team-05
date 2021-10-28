@@ -235,9 +235,9 @@ image-wrap {
   height: 100px;
 }
 
-<!--footer-- > 
+<!--footer--> 
 .main-footer {
-  background-color: rgb(30, 43, 118);
+  background: color #231f63;;
   color: #fff;
 }
 
