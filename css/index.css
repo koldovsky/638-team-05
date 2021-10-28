@@ -207,10 +207,26 @@ image-wrap {
 }
 .contacts {
   text-align: center;
+  float: right;
+  width: 200px;
 }
 .my-form-button {
   background-color: #fdac08;
   color:white;
+  width: 250px;
+  height: 41px;
+  border: rgb(30, 43, 118);
+}
+.my-form {
+  background-color: rgb(42, 22, 153);
+  color: aliceblue;
+  padding: 16 25 16 25;
+  width: 206px;
+  height: 18px;
+  display: block;
+  float: left;
+  width: 200px;
+
 }
 .chanel-carousel-foot {
   display: grid;
