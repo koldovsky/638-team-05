@@ -208,8 +208,9 @@ image-wrap {
 .contacts {
   text-align: center;
 }
-.button-request {
-  color: #fdac08;
+.my-form-button {
+  background-color: #fdac08;
+  color:white;
 }
 .chanel-carousel-foot {
   display: grid;

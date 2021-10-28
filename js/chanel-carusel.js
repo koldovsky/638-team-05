@@ -1,6 +1,6 @@
 (function () {
     const slides = [
-        '<div ><img src="img/netflix.svg" alt="netflix icon" class="icon-channels"><h3>Netflix</h3></div>',
+        '<div class="headlines-center"><img src="img/netflix.svg" alt="netflix icon" class="icon-channels"><h3>Netflix</h3> <p>The most famous streaming service in the United States offering a wide variety of movies and TV series.</p></div>',
         '<div ><img src="img/hbo.webp" alt = "hbo icon" class="icon-channels"></div>',
         '<div ><img src="img/discovery.webp" alt="discovery icon" class="icon-channels"></div>',
         '<div ><img src="img/usa-network.webp" alt="usa-network icon" class="icon-channels"></div>',
