@@ -190,14 +190,18 @@ a {
 
 .wrapper img {
   width: 100%;
+  display: flex;
+ 
+  background-color: rgb(30, 43, 118);
 }
 
 .block-about {
-  background-color: #231f63!;
+  background-color: rgb(30, 43, 118);
   color: white;
-  margin-left: 30px;
-  font-size: 1.5em;
+  margin-left:0%;
+  font-size: 1.2em;
   line-height: 200%;
+  text-align: left;
 }
 .yellowline {
   border: none;
