@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/burger-menu.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/pricing-block.css">
 </head>
 
 <body>
@@ -41,10 +42,10 @@
                                         <div class="soc-icon">
                                             <a href="https://www.facebook.com/"><img src="img/facebook.png"
                                                     alt="Icon Facebook"></a>
-                                                <a href="https://www.instagram.com/"><img src="img/instagram.png"
-                                                        alt="Icon Instagram"></a>
-                                                    <a href="https://www.youtube.com/"><img src="img/youtube.png"
-                                                            alt="Icon Youtube"></a>
+                                            <a href="https://www.instagram.com/"><img src="img/instagram.png"
+                                                    alt="Icon Instagram"></a>
+                                            <a href="https://www.youtube.com/"><img src="img/youtube.png"
+                                                    alt="Icon Youtube"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -217,14 +218,18 @@
         </div>
 
         <!--блок Pricing-->
-        <div class="plan">
+        <div class="pricing">
             <div class="pricing-header">Pricing</div>
+            <div class="line-devider"></div>
             <div class="text-content">
                 <p>We offer flexible pricing plans that you can customize easily</p>
             </div>
-            <span class="line-devider"></span>
-            <div class=slide>
-                <div class="pricing-block-container-1">
+            <div class="pricing-block-carousel">
+                <div class="slides"></div>
+            </div>
+            <div class="slide">
+                <button type="button" class="btn btn-warning">Back</button>
+                <div class="container-for-plan-basic">
                     <div class="plan-header">
                         <p>Basic</p>
                     </div>
@@ -239,9 +244,9 @@
                         <p>-Unlimited devices-</p>
                         <p>-Free connection-</p>
                     </div>
-                    <span class="button">Select plan<a href="#Contact-us"></a></span>
+                    <button type="button" class="btn btn-outline-warning">Select plan</button>
                 </div>
-                <div class="pricing-block-container-2">
+                <div class="container-for-plan-medium">
                     <div class="plan-header">
                         <p>Medium</p>
                     </div>
@@ -256,9 +261,9 @@
                         <p>-24/7 support-</p>
                         <p>-Free connection-</p>
                     </div>
-                    <span class="button">Select plan<a href="#Contact-us"></a></span>
+                    <button type="button" class="btn btn-outline-warning">Select plan</button>
                 </div>
-                <div class="pricing-block-container-3">
+                <div class="container-for-plan-pro">
                     <div class="plan-header">
                         <p>Pro</p>
                     </div>
@@ -273,102 +278,105 @@
                         <p>-Pre-premiere access-</p>
                         <p>-Free connection-</p>
                     </div>
-                    <span class="button">Select plan<a href=#Contact-us></a></span>
+                    <button type="button" class="btn btn-outline-warning">Select plan</button>
+
                 </div>
+
+                <button type="button" class="btn btn-warning">Next</button>
             </div>
         </div>
-
-            <!--блок What`s new-->
-            <div class="whats-new-block">
-                <div class="whats-new-paragraph">
-                    <p>What's New</p>
-                </div>
-                <div class="yellow-stripe"></div>
-                <div class="line">
-                    <p>Be the first to know about new channels, movies and TV series.</p>
-                </div>
-                <div class="whats-new-block-pos">
-                        <div class="channels">
-                            <img src="img/channels.webp" alt="family" style="object-position: 38.08% 50%;">
-                            <div class="text-pos">
-                            <div class="block-title txt-pos">
-                                <p>CHANNELS</p>
-                            </div>
-                            <div class="block-text txt-pos">
-                                <p>3 More Children's Channels to Be Added this Fall</p>
-                            </div>
-                            <div class="block-dates txt-pos">
-                                <p>September, 20, 2020</p>
-                            </div>
-                            <div class="button-pos">
+        </div>
+        <!--блок What`s new-->
+        <div class="whats-new-block">
+            <div class="whats-new-paragraph">
+                <p>What's New</p>
+            </div>
+            <div class="yellow-stripe"></div>
+            <div class="line">
+                <p>Be the first to know about new channels, movies and TV series.</p>
+            </div>
+            <div class="whats-new-block-pos">
+                <div class="channels">
+                    <img src="img/channels.webp" alt="family" style="object-position: 38.08% 50%;">
+                    <div class="text-pos">
+                        <div class="block-title txt-pos">
+                            <p>CHANNELS</p>
+                        </div>
+                        <div class="block-text txt-pos">
+                            <p>3 More Children's Channels to Be Added this Fall</p>
+                        </div>
+                        <div class="block-dates txt-pos">
+                            <p>September, 20, 2020</p>
+                        </div>
+                        <div class="button-pos">
                             <span class="button txt-pos"><a href="#">Read more</a></span>
-                            </div>
-                            </div>
                         </div>
-                        <div class="sports">
-                            <div class="sports">
-                                <div class="sports-content">
-                                    <img src="img/sports.webp" alt="sport event" style="object-position: 13.146% 50%;">
-                                    <div class="text-pos">
-                                    <div class="block-title txt-pos">
-                                        <p>SPORTS</p>
-                                    </div>
-                                    <div class="block-text txt-pos">
-                                        <p>Summer Swimming Championship Is in Full Swing!</p>
-                                    </div>
-                                    <div class="block-dates txt-pos">
-                                        <p>August, 02, 2020</p>
-                                    </div>
-                                    <div class="button-pos">
-                                    <span class="button"><a href="#">Read more</a></span>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="coming-soon">
-                            <div class="coming-soon">
-                                <div class="coming-soon-content">
-                                    <img src="img/coming-soon.webp" alt="two kids" style="object-position: 52.33% 100%;">
-                                    <div class="text-pos">
-                                    <div class="block-title txt-pos">
-                                        <p>COMING SOON</p>
-                                    </div>
-                                    <div class="block-text txt-pos">
-                                        <p>New Fantasy Movie Directed by Ridley Scott Coming Soon</p>
-                                    </div>
-                                    <div class="block-dates txt-pos">
-                                        <p>September, 03, 2020</p>
-                                    </div>
-                                    <div class="button-pos">
-                                    <span class="button"><a href="#">Read more</a></span>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tv-series">
-                            <div class=" tv-series">
-                                <div class="tv-series-content">
-                                    <img src="img/tv-series.webp" alt="man" style="object-position: 68.193% 50%;">
-                                    <div class="text-pos">
-                                    <div class="block-title txt-pos">
-                                        <p>TV SERIES</p>
-                                    </div>
-                                    <div class="block-text txt-pos">
-                                        <p>10 Catchy Questions After The Dark Season 3 Finale</p>
-                                    </div>
-                                    <div class="block-dates txt-pos">
-                                        <p>September, 08, 2020</p>
-                                    </div>
-                                    <div class="button-pos">
-                                    <span class="button"><a href="#">Read more</a></span>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
                 </div>
+                <div class="sports">
+                    <div class="sports">
+                        <div class="sports-content">
+                            <img src="img/sports.webp" alt="sport event" style="object-position: 13.146% 50%;">
+                            <div class="text-pos">
+                                <div class="block-title txt-pos">
+                                    <p>SPORTS</p>
+                                </div>
+                                <div class="block-text txt-pos">
+                                    <p>Summer Swimming Championship Is in Full Swing!</p>
+                                </div>
+                                <div class="block-dates txt-pos">
+                                    <p>August, 02, 2020</p>
+                                </div>
+                                <div class="button-pos">
+                                    <span class="button"><a href="#">Read more</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coming-soon">
+                    <div class="coming-soon">
+                        <div class="coming-soon-content">
+                            <img src="img/coming-soon.webp" alt="two kids" style="object-position: 52.33% 100%;">
+                            <div class="text-pos">
+                                <div class="block-title txt-pos">
+                                    <p>COMING SOON</p>
+                                </div>
+                                <div class="block-text txt-pos">
+                                    <p>New Fantasy Movie Directed by Ridley Scott Coming Soon</p>
+                                </div>
+                                <div class="block-dates txt-pos">
+                                    <p>September, 03, 2020</p>
+                                </div>
+                                <div class="button-pos">
+                                    <span class="button"><a href="#">Read more</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tv-series">
+                    <div class=" tv-series">
+                        <div class="tv-series-content">
+                            <img src="img/tv-series.webp" alt="man" style="object-position: 68.193% 50%;">
+                            <div class="text-pos">
+                                <div class="block-title txt-pos">
+                                    <p>TV SERIES</p>
+                                </div>
+                                <div class="block-text txt-pos">
+                                    <p>10 Catchy Questions After The Dark Season 3 Finale</p>
+                                </div>
+                                <div class="block-dates txt-pos">
+                                    <p>September, 08, 2020</p>
+                                </div>
+                                <div class="button-pos">
+                                    <span class="button"><a href="#">Read more</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer>
         <div class="main-footer">
@@ -425,7 +433,8 @@
             <div class="contacts headlines-center">
                 <h1 id="#contacts">Want to Connect?Contact us.</h1>
                 <p>Support department</p>
-                <a href="mailto:iptvfox-support@email.com" data-action="email" class="ui-link">iptvfox-support@email.com</a>
+                <a href="mailto:iptvfox-support@email.com" data-action="email"
+                    class="ui-link">iptvfox-support@email.com</a>
                 <p>Contact phone</p>
                 <a href="tel:+12345678900" data-action="phone" class="ui-link">+1(234) 567 89 00</a>
             </div>
@@ -443,14 +452,17 @@
                     </div>
                 </nav>
                 <div class="pages-channel">
-                    <a href="https://uk-ua.facebook.com/"><img src="img/facebook.png" alt="facebook" style="height: 40px;"></a>
-                    <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram" style="height: 40px;"></a>
-                    <a href="https://www.youtube.com/"><img src="img/youtube.png" alt="youtube" style="height: 40px;"></a>
+                    <a href="https://uk-ua.facebook.com/"><img src="img/facebook.png" alt="facebook"
+                            style="height: 40px;"></a>
+                    <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram"
+                            style="height: 40px;"></a>
+                    <a href="https://www.youtube.com/"><img src="img/youtube.png" alt="youtube"
+                            style="height: 40px;"></a>
                 </div>
             </div>
 
         </div>
-        
+
 
 
     </footer>
@@ -460,6 +472,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="js/pricing-block-carousel.js"></script>
 </body>
 
 </html>
