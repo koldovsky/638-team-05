@@ -323,10 +323,53 @@ image-wrap {
 .whats-new-block {
   background-color: rgb(30, 43, 118);
 }
-@media (max-width: 750px) {
+
+@media screen and (max-width: 600px) {
+  .whats-new-block {
+    width: 100%;  
+    height: 100%;
+  }
   .whats-new-block-pos {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-pos {
+    display: flex;
+    flex-direction: column;
+  }
+  .channels {
+    background-color: #7237df;
+    position: relative;
+    height: 645px;
+    width: 532px;
+  }
+  .sports {
+    background-color: #7237df;
+    position: relative;
+    height: 645px;
+    width: 532px;
+  }
+  .coming-soon {
+    background-color: #7237df;
+    position: relative;
+    height: 645px;
+    width: 532px;
+  }
+  .tv-series {
+    background-color: #7237df;
+    position: relative;
+    height: 645px;
+    width: 532px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
   }
 }
+
 .whats-new-block-pos {
   display: grid;
   justify-content: space-around;
@@ -377,7 +420,7 @@ image-wrap {
   text-align: center;
   letter-spacing: -0.021em;
 }
-.line {
+.line-wn {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
   font-size: 19px;
