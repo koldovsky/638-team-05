@@ -1,0 +1,96 @@
+.pricing {
+    background-color: rgb(30, 43, 118);
+    padding: auto;
+}
+  .container-for-plan-basic {
+    width: 360px;
+    text-align: center;  
+    background-image: url(../img/plan-background.png);
+    background-size: cover;
+    object-fit: cover;
+    height: 460px;
+    margin: auto;
+    padding-top: 3%;
+  }
+    .container-for-plan-medium {
+        width: 360px;
+        text-align: center;  
+        background-image: url(../img/plan-background.png);
+        background-size: cover;
+        object-fit: cover;
+        height: 460px;
+        margin: auto;
+        padding-top: 3%;
+    }
+    .container-for-plan-pro {
+        width: 360px;
+        text-align: center;  
+        background-image: url(../img/plan-background.png);
+        background-size: cover;
+        object-fit: cover;
+        height: 460px;
+        margin: auto;
+        padding-top: 3%;
+
+  }
+ .slide {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    margin: auto;
+
+}
+ .line-devider {
+    height: 3px;
+    width: 39px;
+    background-color: #fdac08;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .pricing-header {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    position: relative;
+    min-width: 320px;
+    padding-top: 5%;
+    letter-spacing: -0.021em;
+
+  }
+  .plan-content {
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    position: relative;
+    margin: auto;
+    padding: auto;
+  }
+  .price {
+    color: #fdac08;
+    font-size: 38px;
+  }
+  .text-content {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin-top: 25px;
+  }
+  .plan-header {
+    font-size: 22px;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  .per-month {
+    color: #fdac08;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .button {
+      color: #fdac08;
+  }
