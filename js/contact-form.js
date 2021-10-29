@@ -7,7 +7,7 @@
       //const data = new FormData(event.target);//
       const data = JSON.stringify({
         name: document.querySelector('my-form input[name=user name]').value,
-        phoneNumber: document.querySelector('my-form input[name=user phone]').value,
+        phone: document.querySelector('my-form input[name=user phone]').value,
         email: document.querySelector('my-form input[name=user email]').value,
       });
       fetch(event.target.action, {
