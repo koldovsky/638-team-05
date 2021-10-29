@@ -185,10 +185,6 @@ image-wrap {
 }
 
 <!--footer--> 
-.main-footer {
-  background: color #231f63;;
-  color: #fff;
-}
 
 .ui-link {
   color: #fdac08;
@@ -197,6 +193,9 @@ image-wrap {
 
 .headlines-center {
   text-align: center;
+  font-size: 14px;
+  width: 190px;
+  height: 70px;
 }
 .yelow-line {
   height: 3px;
@@ -206,8 +205,7 @@ image-wrap {
   margin-right: auto;
 }
 .contacts {
-  text-align: center;
-  float: right;
+  margin: 100px;
 }
 .my-form-button {
   background-color: #fdac08;
@@ -217,18 +215,19 @@ image-wrap {
   border: rgb(30, 43, 118);
 }
 .my-form {
-  background-color: rgb(42, 22, 153);
   color: aliceblue;
-  padding: 16 25 16 25;
-  width: 206px;
-  height: 18px;
+  width: 250px;
+  height: 40px;
   display: block;
-  float: left;
+  margin: 100px;
 
 }
 .chanel-carousel-foot {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
+  margin: 10%; 
+  text-align: center;
+  padding: auto;
 }
 .chanel-carousel-foot .chanel-slide {
   display: flex;
@@ -236,21 +235,33 @@ image-wrap {
 
 .chanel-carousel-foot .chanel-slide img {
   display: block;
-  width: 100%;
+  width: 200px;
+  height: 150px;
+  flex: auto;
 }
-
+.back-klik{
+  display: grid;
+}
+.next-klik{
+  display: grid;
+}
 .footer-section {
+  background: color #231f63;
   padding-top: 30px;
   padding-bottom: 15px;
-  background-color: #231f63!;
   color: #fff;}
 
 .logo-foot {
   width: 150px;
   height: auto;
+  float: left;
 }
 .pages-channel {
+  background: #231f63;
+  color: #fff;
   list-style-type: none;
+  text-align: center;
+  display: block;
 }
 .icon-channels {
   width: 283px;
