@@ -1,0 +1,64 @@
+.series {
+    background-color: rgb(30, 43, 118);
+    color: azure;
+    text-align: center;
+    font-family: Exo,sans-serif;
+    font-weight: 700; 
+}
+
+.carousel-item active {
+    width: 1170px;
+    height: 630px;
+}
+
+.column-1  {
+    width: 50%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.column-2 {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.column-3 {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.genre  {
+    color: #fdac08;
+}
+
+.air-date  {
+    color: #fdac08;
+}
+
+.starring {
+    color: #fdac08;
+}
+
+.line {
+    width: 5%;
+    height: 3px;
+    color: #fdac08;
+}
+
+.summary {
+    font-weight: 100;
+}
+
+.about {
+    font-weight: 200;
+}
+
+.streaming-servise {
+    font-weight: 400;
+}
+
+.actors {
+    font-weight: 400;
+}
