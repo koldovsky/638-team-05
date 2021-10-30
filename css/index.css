@@ -424,6 +424,7 @@ image-wrap {
 }
 
 @media screen and (min-width: 980px) {
+
     .wn-block-pos {
         display: grid;
         justify-content: space-around;
@@ -433,7 +434,6 @@ image-wrap {
         justify-items: center;
         padding: 200px;
         margin-top: -160px;
-        width: auto;
     }
 
     .wn-channels,
@@ -449,13 +449,16 @@ image-wrap {
     }
 
     .wn-text-pos {
-        position: absolute;
-        top: 0;
+        width: 216px;
         right: 40px;
-        margin-top: 55px;
+        margin-bottom: 60px;
+        margin-top: -310px;
         margin-left: 310px;
     }
 
+    .wn-block-date {
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width: 750px) and (max-width: 980px) {
@@ -464,6 +467,7 @@ image-wrap {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
         grid-row-gap: 30px;
+        margin: 25px;
     }
 
     .wn-channels,
@@ -504,11 +508,14 @@ image-wrap {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 25px;
     }
 }
 
 @media screen and (max-width: 750px) {
+
+    .wn-block-pos {
+        margin: 25px;
+    }
 
     .wn-channels,
     .wn-sports,
