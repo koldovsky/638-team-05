@@ -341,6 +341,90 @@ image-wrap {
 
 }
 
+.fc-block {
+    background-color: rgb(30, 43, 118);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.fc-title {
+    font-family: 'Exo', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: -.021em;
+    line-height: 1.18;
+    color: white;
+    margin-top: 35px;
+    overflow-wrap: break-word;
+}
+
+.button-fc-pos{
+    margin-bottom: 60px;
+}
+.fc-para {
+    font-family: 'Exo', sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: rgb(189,189,211);
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.fc-text {
+    margin: 25px;
+}
+.fc-text {
+    background-image: url(../img/free-con-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1165px 465px;
+    text-align: center;
+    padding: 55px;
+}
+
+.button-fc a {
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    background-color: orange;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    white-space: nowrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.button-fc a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.9s;
+}
+
+.yellow-stripe-fc {
+    background-color: rgb(253, 172, 8);
+    width: 4%;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1260px) {
+    .fc-text {
+        background-size: cover;
+    }
+}
+
+
+
 .wn-block {
     background-color: rgb(30, 43, 118);
 }
