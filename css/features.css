@@ -1,0 +1,89 @@
+.features-block-container {
+    background-color: rgb(30, 43, 118);
+    padding: auto;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.block-features{
+    color: whitesmoke;
+    text-align: center;
+}
+.yellowline2 {
+    background-color: rgb(253, 172, 8);
+  width: 58.5px;
+  height: 3px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align:center;
+}
+.features-text {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.easy-connection {
+    width: 280px;
+    text-align: center;  
+    background-color:#310681;
+    background-size: cover;
+    object-fit: cover;
+    height: 250px;
+    margin: auto;
+    padding-top: 3%;
+}
+.block-channel {
+    width: 280px;
+    text-align: center;  
+    background-color:#310681;
+    background-size: cover;
+    object-fit: cover;
+    height: 250px;
+    margin: auto;
+    padding-top: 3%;
+}
+.users {
+    width: 280px;
+    text-align: center;  
+    background-color: #310681;
+    background-size: cover;
+    object-fit: cover;
+    height: 250px;
+    margin: auto;
+    padding-top: 3%; 
+}
+.technologies {
+    width: 280px;
+    text-align: center;  
+    background-color: #310681;
+    background-size: cover;
+    object-fit: cover;
+    height: 250px;
+    margin: auto;
+    padding-top: 3%; 
+}
+.line-features{
+    height: 3px;
+    width: 39px;
+    background-color: #fdac08;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.features-name {
+    color: white;
+    font-size: 15px;
+}
+.features-text-block {
+    color:rgba(255, 255, 255, 0.7);
+}
+.easy-connection , .block-channel, .users, .technologies {
+    margin: 10px;
+	padding: 20px 10px;
+	width: calc(33% - 24px);
+	display: inline-block;
+}
