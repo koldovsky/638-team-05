@@ -1,43 +1,27 @@
 .pricing {
     background-color: rgb(30, 43, 118);
-    padding: auto;
+  
 }
-  .container-for-plan-basic {
+  .container-for-plan-basic,
+  .container-for-plan-medium,
+  .container-for-plan-pro {
     width: 360px;
     text-align: center;  
     background-image: url(../img/plan-background.png);
     background-size: cover;
-    object-fit: cover;
     height: 460px;
-    margin: auto;
     padding-top: 3%;
   }
-    .container-for-plan-medium {
-        width: 360px;
-        text-align: center;  
-        background-image: url(../img/plan-background.png);
-        background-size: cover;
-        object-fit: cover;
-        height: 460px;
-        margin: auto;
-        padding-top: 3%;
-    }
-    .container-for-plan-pro {
-        width: 360px;
-        text-align: center;  
-        background-image: url(../img/plan-background.png);
-        background-size: cover;
-        object-fit: cover;
-        height: 460px;
-        margin: auto;
-        padding-top: 3%;
-
-  }
  .slide {
-    display: flex;
-    flex-direction: row;
-    padding: 5%;
-    margin: auto;
+   display: flex;
+   flex-direction: row;
+   column-count: 3;
+   column-gap: 20px;
+   column-width: 360px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+
 
 }
  .line-devider {
