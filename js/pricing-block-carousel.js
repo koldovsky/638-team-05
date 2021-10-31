@@ -4,14 +4,14 @@
         '<div class="container-for-plan-medium"></div>',
         '<div class="container-for-plan-pro"></div>'
     ];
-    let currentSlide = 0;
+    let currentSlide = 0
 
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.pricing-block-carousel .slides');
         slideContainer.innerHTML = slides[currentSlide];
     }
 
-    function nextslide() {
+    function nextSlide() {
         currentSlide++;
         if (currentSlide >= slides.length) currentSlide = 0;
         showCurrentSlide();
@@ -22,10 +22,9 @@
         showCurrentSlide();
     }
 
-    document.querySelector('.pricing-block-carousel .btn-btn-outline-warning').addEventListener('click', nextslide);
-    document.querySelector('.pricing-block-carousel .btn-btn-outline-warning').addEventListener('click', prevslide);
+    document.querySelector('.pricing-block-carousel .btn btn-outline-light').addEventListener('click',nextslide);
+    document.querySelector('.pricing-block-carousel .btn btn-outline-light').addEventListener('click',prevslide);
 
-    window.addEventListener('resize', showCurrentSlide);
-    showCurrentSlide(nextSlide, 5000);
+    setInterval(nextSlide, 1000);
     showCurrentSlide();
 })();

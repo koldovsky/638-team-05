@@ -11,16 +11,17 @@
     background-size: cover;
     height: 460px;
     padding-top: 3%;
+
   }
  .slide {
    display: flex;
    flex-direction: row;
-   column-count: 3;
    column-gap: 20px;
    column-width: 360px;
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
+   margin: auto;
 
 
 }
