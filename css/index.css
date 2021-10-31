@@ -12,7 +12,7 @@ html {
     padding: 0;
 }
 
-:root {
+html {
     font-family: "Exo", sans-serif !important;
 }
 
@@ -43,6 +43,8 @@ body .main-header {
 .last-words {
     margin: 30px;
     justify-content: space-between;
+    text-align: center;
+
 }
 
 .currently {
@@ -56,6 +58,8 @@ body .main-header {
     display: inline-block;
     text-align: center;
     font-size: 12px;
+    font-weight: 700;
+    height: 65px;
 }
 
 .currently:hover {
@@ -75,10 +79,11 @@ body .main-header {
     border-radius: 3px;
     display: inline-block;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     width: 210px;
-    height: 70px;
+    height: 60px;
     margin-right: 20px;
+    font-weight: 700;
 }
 
 .learn:hover {
@@ -91,6 +96,40 @@ body .main-header {
 .svg-icons {
     color: antiquewhite;
     text-align: center;
+    size: 15px;
+}
+ .icon-facebook {
+    width: 28px;
+    height: 28px;
+    background-color: #fdac08!important;
+    border-radius: 5px;
+    align-items: center;
+}
+.icon-inst {
+  color: white;
+  width: 28px;
+  height: 28px;
+  background-color: #fdac08!important;
+  border-radius: 5px;
+  align-items: center;
+}
+.icon-youtube {
+  color: white;
+  width: 28px;
+  height: 28px;
+  background-color: #fdac08!important;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.menu a {
+  font-weight: 630;
+  font-size: 20px;
+
+}
+
+.logo_2gS {
+  text-align: center;
 }
 
 .main-words {
@@ -98,13 +137,23 @@ body .main-header {
 }
 
 .slogan {
-    font-size: 3rem;
     margin: auto;
     padding: auto;
+    font-size: 90px;
+    color: #272360;
+    line-height: 1.22;
+    font-family: Exo,sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: -.02em;
 }
 
 .connect {
     margin: 24px;
+    font-family: Exo,sans-serif;
+    font-weight: bold;
 }
 
 .slogan {
@@ -133,7 +182,10 @@ body .main-header {
 
 .last-words {
     margin-bottom: 260px;
+    font-family: Exo,sans-serif;
+    font-weight: 700;
 }
+
 
 .cannon {
     width: 15%;
