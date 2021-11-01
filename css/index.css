@@ -324,21 +324,27 @@ image-wrap {
     margin-left: auto;
     margin-right: auto;
 }
-
+.contacts-formats{
+    padding: 5%;
+    margin: auto;
+    width: 45%;
+    display: inline-block;
+}
 .contacts {
-    margin: 100px;
+    width: 45%;
+    display: inline-block;
 }
 
 .my-form-button {
     background-color: #fdac08;
     color: white;
-    width: 250px;
-    height: 41px;
     border: rgb(30, 43, 118);
+    width: auto;
+    height: auto;
 }
 
 .my-form {
-    color: aliceblue;
+    color: #fff;
     width: 250px;
     height: 40px;
     display: block;
