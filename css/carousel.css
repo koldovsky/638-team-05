@@ -4,6 +4,7 @@
     text-align: center;
     font-family: Exo,sans-serif;
     font-weight: 700; 
+    margin: auto;
 }
 
 .carousel-item active {
@@ -61,4 +62,75 @@
 
 .actors {
     font-weight: 400;
+}
+
+.mySlides {
+    padding: 25px 50px 25px 50px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  background-color: rgb(30, 43, 118);
+  padding-top: 40px;
+} 
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #fdac08;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 30px;
+  margin: 0 2px;
+  background-color: #fdac08;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
