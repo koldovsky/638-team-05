@@ -20,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+
 body .main-header {
     background-repeat: no-repeat;
     background-size: 100%;
@@ -60,6 +61,7 @@ body .main-header {
     font-size: 12px;
     font-weight: 700;
     height: 65px;
+    width: 300px;
 }
 
 .currently:hover {
@@ -188,7 +190,7 @@ body .main-header {
 
 
 .cannon {
-    width: 15%;
+    width: 10%;
 }
 
 .baseline {
@@ -223,8 +225,8 @@ body .main-header {
 @media (min-width: 750px) {
   .content__right {
     display: flex;
-    margin-left: 240px;
-    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
   }
   .content__words {
     margin-top: 140px;
