@@ -16,12 +16,11 @@
  .slide {
    display: flex;
    flex-direction: row;
-   column-gap: 20px;
    column-width: 360px;
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
-   margin: auto;
+   margin: 0 auto;
 
 
 }
@@ -76,6 +75,35 @@
     margin-top: 25px;
     margin-bottom: 25px;
   }
-  .button {
+  .btn-outline-warning {
       color: #fdac08;
+      margin-top: 50px;
+      margin-bottom: 50px;
   }
+.countdown{
+  text-align: center;
+  font-size: 50px;
+  color: #fdac08;
+  font-family: sans-serif;
+  margin-top: 1em;
+}
+.discount{
+  text-align: center;
+  font-size:19px;
+  color: #fdac08;
+  font-family: sans-serif;
+  margin: 2em;
+}
+.timer{
+  background-image: url(../img/plan-background.png);
+  background-size:cover;
+  max-width: 460px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  letter-spacing: +0.181em;
+  font-family:'Exo', sans-serif;
+}
