@@ -90,7 +90,7 @@
 .discount{
   text-align: center;
   font-size:19px;
-  color: #fdac08;
+  color: rgba(255, 255, 255, 0.7);
   font-family: sans-serif;
   margin: 2em;
 }
