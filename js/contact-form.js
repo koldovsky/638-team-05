@@ -1,4 +1,5 @@
 (function () {
+    
     const form = document.querySelector('.my-form');
     
     async function handleSubmit(event) {
@@ -6,9 +7,9 @@
       const status = document.querySelector('.my-form-status');
       //const data = new FormData(event.target);//
       const data = JSON.stringify({
-        name: document.querySelector('my-form input[name=user name]').value,
-        phone: document.querySelector('my-form input[name=user phone]').value,
-        email: document.querySelector('my-form input[name=user email]').value,
+        name: document.querySelector('.my-form input[name=user name]').value,
+        phone: document.querySelector('.my-form input[name=user phone]').value,
+        email: document.querySelector('.my-form input[name=user email]').value
       });
       fetch(event.target.action, {
         method: form.method,
