@@ -65,7 +65,31 @@
 }
 
 .mySlides {
+  padding: 25px 450px 25px 450px;
+}
+
+@media (max-width: 767px) {
+  .mySlides {
     padding: 25px 50px 25px 50px;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 991px) {
+  .mySlides {
+    padding: 25px 50px 25px 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mySlides {
+    padding: 25px 50px 25px 50px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mySlides {
+    padding: 25px 50px 25px 50px;
+  }
 }
 
 * {box-sizing: border-box}
@@ -128,9 +152,4 @@ img {vertical-align: middle;}
 
 .active, .dot:hover {
   background-color: #717171;
-}
-
-
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
 }
